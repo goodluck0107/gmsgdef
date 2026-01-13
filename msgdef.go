@@ -1,4 +1,4 @@
-package interfaces
+package gmsgdef
 
 import "google.golang.org/protobuf/proto"
 
