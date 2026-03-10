@@ -11,11 +11,12 @@ type (
 	}
 
 	ReqItem struct {
-		Req  func() proto.Message
-		Rsp  func() proto.Message
-		Auth int32
-		Name string
-		HTTP string
+		RPCMethod string
+		Req       func() proto.Message
+		Rsp       func() proto.Message
+		Auth      int32
+		Name      string
+		HTTP      string
 	}
 )
 
